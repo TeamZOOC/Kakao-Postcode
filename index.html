@@ -54,7 +54,7 @@
               jibunAddress: jibunAddress,
               zonecode: data.zonecode,
             };
-            window.Android.processDATA(data.roadAddress, jibunAddress, data.zonecode);
+            window.Android.processDATA();
             window.postMessageToiOS(postData);
           },
           width: "100%",
